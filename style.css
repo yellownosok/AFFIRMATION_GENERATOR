@@ -1,8 +1,10 @@
 body {
     padding: 0;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Input Sans Compressed", sans-serif;
+    font-weight: normal;
+    background-color: #F2F2F2;
 }
 .parent {
     display: grid;
@@ -18,19 +20,23 @@ body {
     .div3 { grid-area: 3 / 3 / 10 / 7; }
     .div4 { grid-area: 3 / 7 / 10 / 11; }
     .div5 { grid-area: 11 / 5 / 12 / 9; }
-    .div6 { grid-area: 5 / 1 / 8 / 13; }
+    .div6 { 
+        grid-area: 5 / 1 / 8 / 13; 
+        background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(242,242,242,1) 46%, rgba(242,242,242,1) 59%, rgba(253,187,45,0) 100%);
+    }
     .div7 { grid-area: 6 / 12 / 7 / 13; }
     .div8 { grid-area: 6 / 1 / 7 / 13; }
 h1{
     font-size: 55px;
-    font-family: Helvetica, Arial,  sans-serif;
+    font-family: "Input Sans Compressed", sans-serif;
     color: rgb(39, 41, 41);
     text-transform: uppercase;
     text-align: center;
 }
 p{
     font-size: 43px;
-    font-family: Helvetica, Arial,  sans-serif;
+    font-family: "Input Sans Compressed", sans-serif;
     color: rgb(39, 41, 41);
     text-transform: uppercase;
     text-align: center;
@@ -49,16 +55,16 @@ p{
     padding: 16px 30px;
     border-radius: 50px;
     background: #272727;
-    color: #c9c9c9;
+    color: #F2F2F2;
     cursor: pointer;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
     font-family:Helvetica, Arial,  sans-serif;
     
 
 }
 .btn:hover,
 .btn:focus {
-background: #e4e4e4;
+background: #F2F2F2;
 color: #272727; 
 }
 .btn:active{
