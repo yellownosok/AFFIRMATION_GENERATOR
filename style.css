@@ -1,18 +1,35 @@
 body {
     padding: 0;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     font-family: Helvetica, Arial, sans-serif;
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 6px;
+    height: 600px;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 12; }
+    .div2 { grid-area: 3 / 5 / 10 / 9; }
+    .div3 { grid-area: 3 / 3 / 10 / 7; }
+    .div4 { grid-area: 3 / 7 / 10 / 11; }
+    .div5 { grid-area: 11 / 5 / 12 / 9; }
+    .div6 { grid-area: 5 / 1 / 8 / 13; }
+    .div7 { grid-area: 6 / 12 / 7 / 13; }
+    .div8 { grid-area: 6 / 1 / 7 / 13; }
 h1{
-    font-size: 72px;
+    font-size: 55px;
     font-family: Helvetica, Arial,  sans-serif;
     color: rgb(39, 41, 41);
     text-transform: uppercase;
     text-align: center;
 }
 p{
-    font-size: 55px;
+    font-size: 43px;
     font-family: Helvetica, Arial,  sans-serif;
     color: rgb(39, 41, 41);
     text-transform: uppercase;
