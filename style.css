@@ -16,7 +16,9 @@ body {
     }
     
     .div1 { grid-area: 1 / 2 / 2 / 12; }
-    .div2 { grid-area: 3 / 5 / 10 / 9; }
+    .div2 { grid-area: 3 / 5 / 10 / 9; 
+        display: flex;
+    }
     .div3 { grid-area: 3 / 3 / 10 / 7; }
     .div4 { grid-area: 3 / 7 / 10 / 11; }
     .div5 { grid-area: 11 / 5 / 12 / 9; }
