@@ -17,6 +17,6 @@ function generateL() {
     '<img src="images/imgLeft/left15.svg">',
 ];
 
-var l=document.getElementsByClassName("div3");
+var l=document.querySelector(".div3");
 l.innerHTML=afrmtL[Math.floor(Math.random()*afrmtL.length)];
 }
