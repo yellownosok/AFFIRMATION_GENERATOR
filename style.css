@@ -29,18 +29,19 @@ background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(242,242,242,1) 46%
     .div7 { grid-area: 6 / 12 / 7 / 13; }
     .div8 { grid-area: 6 / 1 / 7 / 13; }
 
-
     h1{
     font-size: 55px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'InputSansCompressed';
+     
+    font-weight: bold;
     color: rgb(39, 41, 41);
     
     text-align: center;
 }
-
 p{
     font-size: 43px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: "InputSansCompressed", sans-serif;
+    font-weight: normal;
     color: rgb(39, 41, 41);
     text-transform: uppercase;
     text-align: center;
@@ -62,7 +63,7 @@ p{
     color: #F2F2F2;
     cursor: pointer;
     transition: all 0.2s linear;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family:Helvetica, Arial,  sans-serif;
     
 
 }
