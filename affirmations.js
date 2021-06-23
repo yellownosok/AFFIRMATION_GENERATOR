@@ -71,7 +71,6 @@ var affirmation = [
 ];
 var txt=document.querySelector('p');
 txt.innerHTML=affirmation[Math.floor(Math.random()*affirmation.length)];
-
-
-
 }
+
+
