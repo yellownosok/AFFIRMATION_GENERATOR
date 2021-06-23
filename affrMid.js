@@ -9,7 +9,7 @@ function generateM() {
     
 ];
 
-var para=document.getElementsByClassName("div2");
-para.innerHTML=afrmt[Math.floor(Math.random()*afrmt.length)];
+var m=document.getElementsByClassName("div2");
+m.innerHTML=afrmt[Math.floor(Math.random()*afrmt.length)];
 }
 //style="width: 500px;
