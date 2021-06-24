@@ -35,8 +35,8 @@ background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(242,242,242,1) 46%
     h1{
     font-size: 40px;
     font-family: 'InputSansCompressed';
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 300;
+	font-style: normal;
     color: rgb(39, 41, 41);
     
     text-align: center;
@@ -58,7 +58,7 @@ p{
 
 .btn {
     display: block;
-    border: solid 2px #272727;
+    border: solid 3px #272727;
     font-size: 35px;
     line-height: 1;
     padding: 16px 30px;
@@ -68,8 +68,8 @@ p{
     cursor: pointer;
     transition: all 0.2s linear;
     font-family: 'InputSansCompressed';
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 300;
+	font-style: normal;
     
 
 }
